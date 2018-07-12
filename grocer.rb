@@ -10,7 +10,7 @@ cart_hash = cart.reduce Hash.new, :merge
 
 end 
 binding.pry 
-end
+
 
 def apply_coupons(cart, coupons)
   # code here
