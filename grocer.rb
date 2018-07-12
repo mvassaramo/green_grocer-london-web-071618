@@ -2,8 +2,8 @@ require 'pry'
 
 
 def consolidate_cart(cart)
-  cart.flatten
-  binding.pry 
+cart.reduce Hash.new, :merge
+binding.pry 
 end
 
 def apply_coupons(cart, coupons)
