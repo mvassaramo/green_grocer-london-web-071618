@@ -2,9 +2,11 @@ require 'pry'
 
 
 def consolidate_cart(cart)
-cart_hash = cart.reduce Hash.new, :merge
 cart_hash.each do |item|
-  counts[item] += 1 
+  counts[item] += 1   
+  
+cart_hash = cart.reduce Hash.new, :merge
+
 end 
 binding.pry 
 end
