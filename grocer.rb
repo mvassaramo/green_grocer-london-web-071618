@@ -5,7 +5,7 @@ def consolidate_cart(cart)
 cart_hash={}
 
 cart.each do |item|
-  
+ 
 end 
 
 # cart_hash = cart.reduce Hash.new, :merge
