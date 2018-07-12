@@ -4,7 +4,7 @@ require 'pry'
 def consolidate_cart(cart)
 cart_hash={}
 
-cart.each do ||
+cart.each do |item|
   
 end 
 
