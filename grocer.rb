@@ -2,7 +2,7 @@ require 'pry'
 
 
 def consolidate_cart(cart)
-cart_hash.each do |item|
+cart.each do |item|
   counts[item] += 1   
 end 
   
