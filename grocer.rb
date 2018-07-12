@@ -2,7 +2,8 @@ require 'pry'
 
 
 def consolidate_cart(cart)
-  cart.each_with_index do |item|
+  cart.each_with_index do |item, index|
+    new_hash = {cart[index].keys}
     item.each do |price, clearance|
     end 
   end 
