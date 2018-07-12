@@ -5,6 +5,7 @@ def consolidate_cart(cart)
 cart_hash={}
 
 cart.each do |item|
+  if cart_hash.include?(item)
  
 end 
 
