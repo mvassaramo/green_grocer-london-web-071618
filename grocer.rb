@@ -4,6 +4,7 @@ require 'pry'
 def consolidate_cart(cart)
 cart_hash.each do |item|
   counts[item] += 1   
+end 
   
 cart_hash = cart.reduce Hash.new, :merge
 
