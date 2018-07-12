@@ -2,11 +2,10 @@ require 'pry'
 
 
 def consolidate_cart(cart)
-cart_hash={}
 cart_hash = cart.reduce Hash.new, :merge
+binding.pry 
 
 end 
-binding.pry 
 
 
 def apply_coupons(cart, coupons)
