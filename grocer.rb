@@ -2,7 +2,7 @@ require 'pry'
 
 
 def consolidate_cart(cart)
-
+  cart.to_h 
   binding.pry 
 end
 
