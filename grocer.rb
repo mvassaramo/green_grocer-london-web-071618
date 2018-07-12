@@ -1,5 +1,7 @@
 def consolidate_cart(cart)
   cart.each do |item|
+    item.each do |price, clearance|
+    end 
   end 
 end
 
