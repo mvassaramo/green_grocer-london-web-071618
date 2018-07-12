@@ -3,6 +3,9 @@ require 'pry'
 
 def consolidate_cart(cart)
 cart_hash = cart.reduce Hash.new, :merge
+cart_hash.each do |item|
+  
+end 
 binding.pry 
 end
 
